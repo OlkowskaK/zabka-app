@@ -28,9 +28,9 @@ const HomePage = () => {
       </div>
 
       {/* Wyświetlenie produktów */}
-      <div>
+      <div className="ProductBox">
         {products.map((product, index) => (
-          <div key={index} style={{ marginBottom: "20px" }}>
+          <div key={index} style={{ marginBottom: "20px" }} className="Product">
             <img
               src={product.image_url}
               alt={product.product_name}

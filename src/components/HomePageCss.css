@@ -2,9 +2,10 @@
   justify-content: center;
   margin-top: 0px;
   text-align: center;
-  background-color: fff;
+  background-color: #ffffff;
   text-decoration: none;
 }
+
 .Welcome {
   background-color: green;
   color: white;
@@ -22,4 +23,44 @@
 
 .ImgDiv {
   margin: 20px;
+}
+
+.ProductBox {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  background-color: white;
+  padding: 10px;
+  gap: 10px;
+  width: 100%;
+}
+
+.Product {
+  border: 0.1px solid rgba(0, 0, 0, 0.158);
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+  width: 150px;
+  min-width: 150px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: white;
+  color: black;
+}
+
+.Product img {
+  width: 100%;
+  height: 120px;
+  margin-top: 15px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.Product p {
+  margin: 5px 0 0;
+  text-align: center;
+  color: black;
 }

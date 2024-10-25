@@ -6,6 +6,7 @@ nav {
   background-color: green;
   padding: 10px 0;
   text-align: center;
+  z-index: 10;
 }
 
 ul {
